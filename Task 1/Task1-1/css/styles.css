@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    margin: 20px;
+}
+
+h2 {
+    color: green;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.highlight-italic {
+    background-color: yellow;
+    font-style: italic;
+}
+
+ul li a {
+    color: blue;
+}
