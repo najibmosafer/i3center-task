@@ -58,6 +58,7 @@ header div div{
     display: flex;
     align-items: center;
     color: white;
+    z-index: 1;
 }
 
 .first {
@@ -90,4 +91,79 @@ header div div{
     border-radius: 50px;
     border: 0px;
     color: white;
+}
+
+.background-2{
+    position: absolute;
+    top: 484px;
+    left: 0;
+    z-index: -10!important;
+}
+
+.background-3{
+    position: absolute;
+    top: 1286px;
+    right: 391px;
+    z-index: -10!important;
+}
+
+.background-4{
+    position: absolute;
+    top: 1683px;
+    left: 283px;
+    z-index: -10!important;
+}
+
+.section_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 145px;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(217, 217, 217, 0.2);
+    border-radius: 50px;
+    z-index: 10;
+    backdrop-filter: blur(2px);
+    color: white;
+    text-align: center;
+    padding-top: 53px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.section_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 154px;
+}
+
+.section_3 .title{
+    width: 1343px;
+    height: 450px;
+    border-radius: 50px;
+    background-color: rgba(217, 217, 217, 0.2);
+    border: 1px solid white;
+    z-index: 10;
+    backdrop-filter: blur(2px);
+}
+
+.title_section_3{
+    display: flex;
+    justify-content: space-between;
+    padding: 39px 53px 55px 53px;
+}
+
+.title_section_3:nth-child(1){
+    color: white;
+    font-size: 35px;
+}
+
+.box_section_3{
+
 }
