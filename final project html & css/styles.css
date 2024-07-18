@@ -150,7 +150,7 @@ header div div {
     width: 250px;
     height: 250px;
     background-color: rgba(217, 217, 217, 0.2);
-    border-radius: 50px;
+    border-radius: 25px;
     z-index: 10;
     backdrop-filter: blur(2px);
     color: white;
@@ -170,7 +170,7 @@ header div div {
 .section_3 .title {
     width: 1314px;
     height: 450px;
-    border-radius: 50px;
+    border-radius: 25px;
     background-color: rgba(217, 217, 217, 0.2);
     border: 1px solid white;
     z-index: 10;
@@ -216,10 +216,10 @@ header div div {
     height: 280px;
     background: rgba(217, 217, 217, 0.15);
     backdrop-filter: blur(5px);
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
-.product_name_section_3{
+.product_name_section_3 {
     display: inline-block;
     padding-right: 90px;
     padding-left: 25px;
@@ -228,7 +228,7 @@ header div div {
     color: white;
 }
 
-.add_cart{
+.add_cart {
     display: inline-block;
     background-color: #6F0080;
     font-size: medium;
@@ -251,7 +251,7 @@ header div div {
 .section_4 .title {
     width: 1314px;
     height: 450px;
-    border-radius: 50px;
+    border-radius: 25px;
     /* background-color: rgba(217, 217, 217, 0.2); */
     /* border: 1px solid white; */
     /* backdrop-filter: blur(2px); */
@@ -278,7 +278,7 @@ header div div {
     font-size: 16px;
     background-color: #6F0080;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 25px;
     border: 0px;
     color: white;
 }
@@ -296,16 +296,16 @@ header div div {
     height: 280px;
     background: rgba(217, 217, 217, 0.15);
     backdrop-filter: blur(5px);
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
-.product_name_section_4{
+.product_name_section_4 {
     padding-top: 10px;
     font-size: 20px;
     color: white;
 }
 
-.add_cart_section_4{
+.add_cart_section_4 {
     background-color: #6F0080;
     font-size: medium;
     padding: 5px 10px 5px 10px;
@@ -315,7 +315,7 @@ header div div {
     color: white;
 }
 
-.title_in_section_4{
+.title_in_section_4 {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -327,26 +327,39 @@ header div div {
 
 .section_5 {
     display: flex;
-    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 290px;
+    gap: 190px;
 }
+
+.section_5 .card:nth-of-type(2) {
+    margin-top: 67px;
+}
+
 .card {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 15px;
     padding: 20px;
-    width: 250px;
+    width: 460px;
+    height: 455px;
     position: relative;
 }
+
 .card img {
     width: 100%;
     border-radius: 15px;
 }
+
 .card h3 {
     margin: 10px 0;
 }
+
 .card p {
     font-size: 14px;
     color: #bbb;
 }
+
 .button {
     display: block;
     margin: 20px 0;
@@ -357,11 +370,13 @@ header div div {
     border-radius: 20px;
     text-decoration: none;
 }
+
 .search-bar {
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
+
 .search-bar input {
     flex: 1;
     padding: 10px;
@@ -369,6 +384,7 @@ header div div {
     border: none;
     outline: none;
 }
+
 .search-bar button {
     padding: 10px 20px;
     background: #bb00ff;
