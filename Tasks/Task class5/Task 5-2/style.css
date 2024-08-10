@@ -4,7 +4,7 @@
    box-sizing: border-box; 
 }
 .container{
-    width: 90%;
+    width: 75%;
     height: 95vh;
     background-color: darkblue;
     margin: 0 auto;
@@ -12,8 +12,8 @@
 }
 .left{
     width: 20%;
-    height: 70%;
-    bottom: 5px;
+    height: 65%;
+    bottom: 25px;
     position: absolute;
     margin: 20px;
     display: grid;
@@ -23,14 +23,12 @@
     gap: 10px;
     padding: 10px;
 }
-.container .left .box1,
-.container .left .box2,
-.container .left .box3{
+.box1, .box2, .box3{
     border-radius: 10px;
     background-color: rgb(247, 125, 97);
     padding: 10px;
 }
-.container .right{
+.right{
     display: grid;
     grid-template-rows: 3fr 2fr 5fr;
     gap: 20px;
@@ -39,21 +37,21 @@
     float: right;
     padding: 12px;
 }
-.container .right .top{
+.top{
     background-color: rgb(82, 155, 201);
     border-radius: 10px;
 }
-.container .right .middle{
+.middle{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-.container .right .middle .imgleft,
-.container .right .middle .imgright{
+.imgleft,
+.imgright{
     background-color: rgb(82, 155, 201);
     border-radius: 10px;
 }
-.container .right .bottom{
+.bottom{
     background-color: rgb(82, 155, 201);
     border-radius: 10px;
 }

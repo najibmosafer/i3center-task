@@ -1,23 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.login{
-    width: 80%;
-    height: 100vh;
+
+.login {
+    width: 60%;
+    height: 80vh;
     display: flex;
     box-shadow: 7px 7px 40px rgba(87, 87, 87, 0.733);
     margin: 0 auto;
     margin-top: 40px;
     border-radius: 15px;
 }
-.signin{
+
+.signin {
     width: 50%;
     height: 100%;
     background-color: white;
@@ -29,22 +32,25 @@
     justify-content: center;
     gap: 30px;
 }
-.title1{
+
+.title1 {
     font-size: 50px;
     font-weight: 550px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: -4px;
 }
-.social{
+
+.social {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
-.social span{
+
+.social span {
     width: 40px;
     height: 40px;
-    border: 1px solid rgb(27, 153, 184);
+    border: 1px solid #50C5CE;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -53,36 +59,49 @@
 }
 
 
-.emailpass{
+.emailpass {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.emailpass input{
+
+.emailpass input {
     background-color: rgb(233, 233, 233);
     border: none;
     width: 300px;
     padding: 10px 10px;
+    border-radius: 5px;
 }
-.forgot{
+
+.forgot {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(34, 34, 34);
 }
-button{
-    padding:10px 40px;
-    background-color: rgb(91, 208, 237);
+
+button {
+    padding: 10px 40px;
+    background-color: #50C5CE;
     color: white;
     border-radius: 30px;
     border: 1px solid rgba(90, 79, 239, 0.458);
 }
 
+button:hover {
+    background-color: #14a0aa;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+
 
 /* ****************SIGN UP*************************** */
 
-.signup{
+.signup {
     width: 50%;
     height: 100%;
-    background-color: rgb(78, 190, 231);
+    background-color: #50C5CE;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     display: flex;
@@ -92,18 +111,29 @@ button{
     text-align: center;
     gap: 30px;
 }
-#up{
-    padding:10px 40px;
-    background-color: rgb(78, 190, 231);
+
+#up {
+    padding: 10px 40px;
+    background-color: #50C5CE;
     color: white;
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.458);
 }
-small{
+
+#up:hover {
+    background-color: #14a0aa;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+small {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(255, 255, 255, 0.837);
 }
-.title2{
+
+.title2 {
     font-size: 50px;
     font-weight: 550px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
