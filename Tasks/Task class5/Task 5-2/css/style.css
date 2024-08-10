@@ -1,0 +1,156 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+.container{
+    width: 90%;
+    height: 95vh;
+    background-color: darkblue;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.left{
+    width: 20%;
+    height: 70%;
+    bottom: 5px;
+    position: absolute;
+    margin: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: lightblue;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 10px;
+}
+.container .left .box1,
+.container .left .box2,
+.container .left .box3{
+    border-radius: 10px;
+    background-color: rgb(247, 125, 97);
+    padding: 10px;
+}
+.container .right{
+    display: grid;
+    grid-template-rows: 3fr 2fr 5fr;
+    gap: 20px;
+    width: 70%;
+    height: 100%;
+    float: right;
+    padding: 12px;
+}
+.container .right .top{
+    background-color: rgb(82, 155, 201);
+    border-radius: 10px;
+}
+.container .right .middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.container .right .middle .imgleft,
+.container .right .middle .imgright{
+    background-color: rgb(82, 155, 201);
+    border-radius: 10px;
+}
+.container .right .bottom{
+    background-color: rgb(82, 155, 201);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container{
+    width: 99%;
+    height: 95vh;
+    background-color: darkblue;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+}
+.left{
+    width: 22%;
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: lightblue;
+    border-radius: 15px;
+    gap: 10px;
+    padding: 10px;
+    transform: translateY(110px);
+}
+.container .left .box1,
+.container .left .box2,
+.container .left .box3{
+    border-radius: 10px;
+    background-color: rgb(247, 125, 97);
+}
+.container .right{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(82, 155, 201);
+    float: right;
+    transform: translateY(-365px);
+    display: grid;
+    grid-template-rows: 3fr 2fr 5fr;
+    gap: 30px;
+}
+.container .right .top{
+    background-color: rgb(82, 155, 201);
+    border-radius: 10px;
+}
+.container .right .middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.container .right .middle .imgleft,
+.container .right .middle .imgright{
+    background-color: rgb(82, 155, 201);
+    border-radius: 10px;
+}
+.container .right .bottom{
+    background-color: rgb(82, 155, 201);
+    border-radius: 10px;
+} */
+
+
+

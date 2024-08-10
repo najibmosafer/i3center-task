@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2-4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="First-Name">نام</label></td>
+                <td><input type="text" placeholder="نام خود را وارد کنید"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="Email"></label>ایمیل</td>
+                <td><input type="email" placeholder="ایمیل خود را وارد کنید"></td>
+            </tr>
+            <tr>
+                <td><input type="email" placeholder="رمز خود را وارد کنید"></td>
+            </tr>
+            <tr>
+                <td><label for="date">تاریخ تولد</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="date">سن</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label for="color">رنگ مورد علاقه</label></td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td><label for="education">وضعیت تحصیل</label></td>
+                <td>
+                    <label for="">در حال تحصیل</label>
+                    <input type="radio" name="situation">
+                    <label for="">فارغ التحصیل</label>
+                    <input type="radio" name="situation">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fruit">میوه مورد علاقه</label></td>
+                <td>
+                    <input type="checkbox">
+                    <label for="apple">&#127822</label>
+                    <input type="checkbox">
+                    <label for="carrot">&#129365</label>
+                    <input type="checkbox">
+                    <label for="lemon">&#127819</label>
+                    <input type="checkbox">
+                    <label for="pepper">&#127798</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">کشور</label></td>
+                <td>
+                    <select name="country" id="">
+                        <option value="iran">ایران</option>
+                        <option value="germany">آلمان</option>
+                        <option value="england">انگلستان</option>
+                        <option value="spain">اسپانیا</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="boigraphy">بیوگرافی</label></td>
+                <td><textarea name="text" rows="6" cols="35" placeholder="هرچه میخواهد دل تنگت بگو..." id=""></textarea>
+                </td>
+            </tr>
+            <td colspan="2"><button>نام نویسی</button></td>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

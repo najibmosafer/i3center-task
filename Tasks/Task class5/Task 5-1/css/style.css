@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    box-shadow: 7px 7px 40px rgba(87, 87, 87, 0.733);
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+.signin{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.title1{
+    font-size: 50px;
+    font-weight: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -4px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.social span{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(27, 153, 184);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.emailpass{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.emailpass input{
+    background-color: rgb(233, 233, 233);
+    border: none;
+    width: 300px;
+    padding: 10px 10px;
+}
+.forgot{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(34, 34, 34);
+}
+button{
+    padding:10px 40px;
+    background-color: rgb(91, 208, 237);
+    color: white;
+    border-radius: 30px;
+    border: 1px solid rgba(90, 79, 239, 0.458);
+}
+
+
+/* ****************SIGN UP*************************** */
+
+.signup{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(78, 190, 231);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+#up{
+    padding:10px 40px;
+    background-color: rgb(78, 190, 231);
+    color: white;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.458);
+}
+small{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.837);
+}
+.title2{
+    font-size: 50px;
+    font-weight: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -4px;
+    color: white;
+}
