@@ -1,0 +1,43 @@
+.btn_calc{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 75px;
+    height: 75px;
+    border: 0;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgb(78, 78, 78);
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 10px;
+    bottom: 100px;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup.show{
+    display: flex;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
